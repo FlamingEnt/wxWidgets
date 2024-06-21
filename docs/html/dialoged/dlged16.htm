@@ -1,0 +1,28 @@
+<HTML>
+<head><title>Using property editors</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="propeditors"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged13.htm#procedures"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged15.htm#topic11"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged17.htm#topic12"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H2>Using property editors</H2>
+<P>
+Property editors consist of a list of properties and current values, plus controls at the top of
+the editor. If the property is of an appropriate type, you can edit the value directly in the
+text field, and confirm or cancel the value using the two buttons to the left of it.
+If the property has a predefined range of values, such as labelFontFamily, you can
+see a list of permissable values by clicking on the button labelled with an ellipsis symbol (<B>...</B>).
+This will show a listbox with possible values and current selection. You may also be able
+to cycle through values by double-clicking the value in the listbox.<P>
+Properties may have special editors appropriate to the type. Filename properties invoke
+the file selector, and properties containing list of user-definable strings use a
+string editor.<P>
+When you change a property value, this value is immediately reflected in
+the dialog or control.  If the item allows this value to be changed
+dynamically, the relevant wxWindows function will be called internally
+to effect the change.  If the value cannot be changed dynamically, the
+item will be destroyed and re-created, which means that there will be
+more flickering associated with some kinds of property changes than
+others.<P>
+
+</FONT></BODY></HTML>

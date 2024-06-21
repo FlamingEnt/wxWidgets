@@ -1,0 +1,23 @@
+<HTML>
+<head><title>Dynamic setting versus recreation</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="topic16"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged24.htm#topic15"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged24.htm#topic15"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged26.htm#topic17"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H3>Dynamic setting versus recreation</H3>
+<P>
+The property editor scheme relies on being able to set window properties
+dynamically: the user changes a value, and the window changes immediately
+to reflect the new value. Unfortunately, not all properties can be
+changed dynamically in wxWindows; for example, in Motif, the label position
+must be given at panel item creation time, because the way the widgets
+are laid out depend on the label position. The label position cannot then
+be changed without deleting and recreating the item.<P>
+Hence the dialog editor takes two approaches: where values are dynamically
+settable, this is done. Where they are not, the item is deleted and recreated,
+after all existing values have been transferred into the parallel wxItemResource
+object. Therefore in wx_rprop.cc, some of the SetProperty implementations have one or
+more call to RecreateWindowFromResource.<P>
+
+</FONT></BODY></HTML>

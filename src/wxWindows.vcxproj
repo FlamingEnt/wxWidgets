@@ -1,0 +1,1501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug DLL|Win32">
+      <Configuration>Debug DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Unicode DLL|Win32">
+      <Configuration>Debug Unicode DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Unicode|Win32">
+      <Configuration>Debug Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release DLL|Win32">
+      <Configuration>Release DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Unicode DLL|Win32">
+      <Configuration>Release Unicode DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Unicode|Win32">
+      <Configuration>Release Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{354C7A50-9DC9-4201-8E9C-BDC3D90CB46E}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../ReleaseDll\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../ReleaseUnicode\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../DebugUnicode\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../ReleaseUnicodeDll\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../DebugUnicodeDll\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+    <OutDir>.\../lib\</OutDir>
+    <IntDir>.\../DebugDll\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/msw;../include;./zlib;./jpeg;./png;./regex;./tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;WINVER=0x0400;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../Release\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\lib\wxmsw.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/mswdll;../include;./zlib;./jpeg;./png;./regex;./tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;WIN32;NDEBUG;WINVER=0x0400;STRICT;WXMAKINGDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../ReleaseDll\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../ReleaseDll\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../ReleaseDll\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../ReleaseDll\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\../lib\wxWindows.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>../lib/wxmsw24.dll</OutputFile>
+      <ImportLibrary>.\../lib\wxmsw24.lib</ImportLibrary>
+      <AdditionalDependencies>odbc32.lib;rpcrt4.lib;comctl32.lib;wsock32.lib;winmm.lib;..\lib\jpeg.lib;..\lib\tiff.lib;..\lib\png.lib;..\lib\regex.lib;..\lib\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>2.4</Version>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/mswu;../include;./zlib;./jpeg;./png;./regex;./tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;WINVER=0x0400;STRICT;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../ReleaseUnicode\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../ReleaseUnicode\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../ReleaseUnicode\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../ReleaseUnicode\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\lib\wxmswu.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/mswud;../include;./zlib;./jpeg;./png;./regex;./tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXDEBUG__;WINVER=0x0400;STRICT;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../DebugUnicode\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../DebugUnicode\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../DebugUnicode\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../DebugUnicode\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\lib\wxmswud.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/mswdllu;../include;./zlib;./jpeg;./png;./regex;./tiff;;../contrib/include;../contrib/src/xrc/expat/xmlparse;../contrib/src/xrc/expat/xmltok;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;WIN32;NDEBUG;WINVER=0x0400;STRICT;WXMAKINGDLL;UNICODE;WXXMLISDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../ReleaseUnicodeDll\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../ReleaseUnicodeDll\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../ReleaseUnicodeDll\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../ReleaseUnicodeDll\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\../lib\wxWindows.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>../lib/wxmsw24u.dll</OutputFile>
+      <ImportLibrary>.\../lib\wxmsw24u.lib</ImportLibrary>
+      <AdditionalDependencies>odbc32.lib;rpcrt4.lib;comctl32.lib;wsock32.lib;winmm.lib;..\lib\jpeg.lib;..\lib\tiff.lib;..\lib\png.lib;..\lib\regex.lib;..\lib\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>2.4</Version>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/mswdllud;../include;./zlib;./jpeg;./png;./regex;./tiff;../contrib/include;../contrib/src/xrc/expat/xmlparse;../contrib/src/xrc/expat/xmltok;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;WIN32;_DEBUG;WINVER=0x0400;STRICT;WXMAKINGDLL;UNICODE;WXXMLISDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../DebugUnicodeDll\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../DebugUnicodeDll\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../DebugUnicodeDll\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../DebugUnicodeDll\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\../lib\wxWindows.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>../lib/wxmsw24ud.dll</OutputFile>
+      <ImportLibrary>.\../lib\wxmsw24ud.lib</ImportLibrary>
+      <AdditionalDependencies>odbc32.lib;rpcrt4.lib;comctl32.lib;wsock32.lib;winmm.lib;..\lib\jpegd.lib;..\lib\tiffd.lib;..\lib\pngd.lib;..\lib\regexd.lib;..\lib\zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>2.4</Version>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/mswd;../include;./zlib;./jpeg;./png;./regex;./tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXDEBUG__;WINVER=0x0400;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../Debug\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../Debug\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\lib\wxmswd.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>../lib/mswdlld;../include;./zlib;./jpeg;./png;./regex;./tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;WIN32;_DEBUG;WINVER=0x0400;STRICT;WXMAKINGDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\../DebugDll\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\../DebugDll\wxWindows.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wx/wxprec.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\../DebugDll\</ObjectFileName>
+      <ProgramDataBaseFileName>.\../DebugDll\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\../lib\wxWindows.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../lib\wxWindows.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>../lib/wxmsw24d.dll</OutputFile>
+      <ImportLibrary>.\../lib\wxmsw24d.lib</ImportLibrary>
+      <AdditionalDependencies>odbc32.lib;rpcrt4.lib;comctl32.lib;wsock32.lib;winmm.lib;..\lib\jpegd.lib;..\lib\tiffd.lib;..\lib\pngd.lib;..\lib\regexd.lib;..\lib\zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>2.4</Version>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\contrib\src\xrc\expat\xmlparse\xmlparse.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\expat\xmltok\xmlrole.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\expat\xmltok\xmltok.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_bmp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_bmpbt.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_bttn.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_cald.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_chckb.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_chckl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_choic.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_combo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_dlg.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_frame.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_gauge.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_gdctl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_html.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_listb.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_listc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_menu.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_notbk.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_panel.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_radbt.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_radbx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_scrol.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_scwin.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_sizer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_slidr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_spin.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_split.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_stbmp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_stbox.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_stlin.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_sttxt.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_text.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_toolb.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_tree.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_unkwn.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_wizrd.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xmlres.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xmlrsall.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="common\appcmn.cpp" />
+    <ClCompile Include="common\artprov.cpp" />
+    <ClCompile Include="common\artstd.cpp" />
+    <ClCompile Include="common\choiccmn.cpp" />
+    <ClCompile Include="common\clipcmn.cpp" />
+    <ClCompile Include="common\clntdata.cpp" />
+    <ClCompile Include="common\cmdline.cpp" />
+    <ClCompile Include="common\cmdproc.cpp" />
+    <ClCompile Include="common\cmndata.cpp" />
+    <ClCompile Include="common\config.cpp" />
+    <ClCompile Include="common\containr.cpp" />
+    <ClCompile Include="common\cshelp.cpp" />
+    <ClCompile Include="common\ctrlcmn.cpp" />
+    <ClCompile Include="common\ctrlsub.cpp" />
+    <ClCompile Include="common\datetime.cpp" />
+    <ClCompile Include="common\datstrm.cpp" />
+    <ClCompile Include="common\db.cpp" />
+    <ClCompile Include="common\dbgrid.cpp" />
+    <ClCompile Include="common\dbtable.cpp" />
+    <ClCompile Include="common\dcbase.cpp" />
+    <ClCompile Include="common\dircmn.cpp" />
+    <ClCompile Include="common\dlgcmn.cpp" />
+    <ClCompile Include="common\dndcmn.cpp" />
+    <ClCompile Include="common\dobjcmn.cpp" />
+    <ClCompile Include="common\docmdi.cpp" />
+    <ClCompile Include="common\docview.cpp" />
+    <ClCompile Include="common\dosyacc.c">
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+      </PrecompiledHeader>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+      </PrecompiledHeader>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+      </PrecompiledHeader>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">Level1</WarningLevel>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">USE_DEFINE;IDE_INVOKED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="common\dseldlg.cpp" />
+    <ClCompile Include="common\dynarray.cpp" />
+    <ClCompile Include="common\dynlib.cpp" />
+    <ClCompile Include="common\dynload.cpp" />
+    <ClCompile Include="common\effects.cpp" />
+    <ClCompile Include="common\encconv.cpp" />
+    <ClCompile Include="common\event.cpp" />
+    <ClCompile Include="common\extended.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="common\fddlgcmn.cpp" />
+    <ClCompile Include="common\ffile.cpp" />
+    <ClCompile Include="common\file.cpp" />
+    <ClCompile Include="common\fileconf.cpp" />
+    <ClCompile Include="common\filefn.cpp" />
+    <ClCompile Include="common\filename.cpp" />
+    <ClCompile Include="common\filesys.cpp" />
+    <ClCompile Include="common\fontcmn.cpp" />
+    <ClCompile Include="common\fontmap.cpp" />
+    <ClCompile Include="common\framecmn.cpp" />
+    <ClCompile Include="common\fs_inet.cpp" />
+    <ClCompile Include="common\fs_mem.cpp" />
+    <ClCompile Include="common\fs_zip.cpp" />
+    <ClCompile Include="common\ftp.cpp" />
+    <ClCompile Include="common\gaugecmn.cpp" />
+    <ClCompile Include="common\gdicmn.cpp" />
+    <ClCompile Include="common\geometry.cpp" />
+    <ClCompile Include="common\gifdecod.cpp" />
+    <ClCompile Include="common\hash.cpp" />
+    <ClCompile Include="common\hashmap.cpp" />
+    <ClCompile Include="common\helpbase.cpp" />
+    <ClCompile Include="common\http.cpp" />
+    <ClCompile Include="common\iconbndl.cpp" />
+    <ClCompile Include="common\imagall.cpp" />
+    <ClCompile Include="common\imagbmp.cpp" />
+    <ClCompile Include="common\image.cpp" />
+    <ClCompile Include="common\imagfill.cpp" />
+    <ClCompile Include="common\imaggif.cpp" />
+    <ClCompile Include="common\imagiff.cpp" />
+    <ClCompile Include="common\imagjpeg.cpp" />
+    <ClCompile Include="common\imagpcx.cpp" />
+    <ClCompile Include="common\imagpng.cpp" />
+    <ClCompile Include="common\imagpnm.cpp" />
+    <ClCompile Include="common\imagtiff.cpp" />
+    <ClCompile Include="common\imagxpm.cpp" />
+    <ClCompile Include="common\intl.cpp" />
+    <ClCompile Include="common\ipcbase.cpp" />
+    <ClCompile Include="common\layout.cpp" />
+    <ClCompile Include="common\lboxcmn.cpp" />
+    <ClCompile Include="common\list.cpp" />
+    <ClCompile Include="common\log.cpp" />
+    <ClCompile Include="common\longlong.cpp" />
+    <ClCompile Include="common\matrix.cpp" />
+    <ClCompile Include="common\memory.cpp" />
+    <ClCompile Include="common\menucmn.cpp" />
+    <ClCompile Include="common\mimecmn.cpp" />
+    <ClCompile Include="common\module.cpp" />
+    <ClCompile Include="common\msgout.cpp" />
+    <ClCompile Include="common\mstream.cpp" />
+    <ClCompile Include="common\nbkbase.cpp" />
+    <ClCompile Include="common\object.cpp" />
+    <ClCompile Include="common\odbc.cpp" />
+    <ClCompile Include="common\paper.cpp" />
+    <ClCompile Include="common\popupcmn.cpp" />
+    <ClCompile Include="common\prntbase.cpp" />
+    <ClCompile Include="common\process.cpp" />
+    <ClCompile Include="common\protocol.cpp" />
+    <ClCompile Include="common\quantize.cpp" />
+    <ClCompile Include="common\radiocmn.cpp" />
+    <ClCompile Include="common\regex.cpp" />
+    <ClCompile Include="common\resource.cpp" />
+    <ClCompile Include="common\rgncmn.cpp" />
+    <ClCompile Include="common\sckaddr.cpp" />
+    <ClCompile Include="common\sckfile.cpp" />
+    <ClCompile Include="common\sckipc.cpp" />
+    <ClCompile Include="common\sckstrm.cpp" />
+    <ClCompile Include="common\settcmn.cpp" />
+    <ClCompile Include="common\sizer.cpp" />
+    <ClCompile Include="common\socket.cpp" />
+    <ClCompile Include="common\statbar.cpp" />
+    <ClCompile Include="common\strconv.cpp" />
+    <ClCompile Include="common\stream.cpp" />
+    <ClCompile Include="common\string.cpp" />
+    <ClCompile Include="common\sysopt.cpp" />
+    <ClCompile Include="common\tbarbase.cpp" />
+    <ClCompile Include="common\textbuf.cpp" />
+    <ClCompile Include="common\textcmn.cpp" />
+    <ClCompile Include="common\textfile.cpp" />
+    <ClCompile Include="common\timercmn.cpp" />
+    <ClCompile Include="common\tokenzr.cpp" />
+    <ClCompile Include="common\toplvcmn.cpp" />
+    <ClCompile Include="common\treebase.cpp" />
+    <ClCompile Include="common\txtstrm.cpp" />
+    <ClCompile Include="common\unzip.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="common\url.cpp" />
+    <ClCompile Include="common\utilscmn.cpp" />
+    <ClCompile Include="common\valgen.cpp" />
+    <ClCompile Include="common\validate.cpp" />
+    <ClCompile Include="common\valtext.cpp" />
+    <ClCompile Include="common\variant.cpp" />
+    <ClCompile Include="common\wfstream.cpp" />
+    <ClCompile Include="common\wincmn.cpp" />
+    <ClCompile Include="common\wxchar.cpp" />
+    <ClCompile Include="common\wxexpr.cpp" />
+    <ClCompile Include="common\xpmdecod.cpp" />
+    <ClCompile Include="common\zipstrm.cpp" />
+    <ClCompile Include="common\zstream.cpp" />
+    <ClCompile Include="generic\busyinfo.cpp" />
+    <ClCompile Include="generic\calctrl.cpp" />
+    <ClCompile Include="generic\choicdgg.cpp" />
+    <ClCompile Include="generic\dcbuffer.cpp" />
+    <ClCompile Include="generic\dcpsg.cpp" />
+    <ClCompile Include="generic\dirctrlg.cpp" />
+    <ClCompile Include="generic\dragimgg.cpp" />
+    <ClCompile Include="generic\grid.cpp" />
+    <ClCompile Include="generic\gridctrl.cpp" />
+    <ClCompile Include="generic\gridsel.cpp" />
+    <ClCompile Include="generic\laywin.cpp" />
+    <ClCompile Include="generic\logg.cpp" />
+    <ClCompile Include="generic\numdlgg.cpp" />
+    <ClCompile Include="generic\panelg.cpp" />
+    <ClCompile Include="generic\progdlgg.cpp" />
+    <ClCompile Include="generic\prop.cpp" />
+    <ClCompile Include="generic\propform.cpp" />
+    <ClCompile Include="generic\proplist.cpp" />
+    <ClCompile Include="generic\sashwin.cpp" />
+    <ClCompile Include="generic\scrlwing.cpp" />
+    <ClCompile Include="generic\spinctlg.cpp" />
+    <ClCompile Include="generic\splash.cpp" />
+    <ClCompile Include="generic\splitter.cpp" />
+    <ClCompile Include="generic\statusbr.cpp" />
+    <ClCompile Include="generic\tbarsmpl.cpp" />
+    <ClCompile Include="generic\textdlgg.cpp" />
+    <ClCompile Include="generic\tipdlg.cpp" />
+    <ClCompile Include="generic\tipwin.cpp" />
+    <ClCompile Include="generic\treectlg.cpp" />
+    <ClCompile Include="generic\treelay.cpp" />
+    <ClCompile Include="generic\wizard.cpp" />
+    <ClCompile Include="html\helpctrl.cpp" />
+    <ClCompile Include="html\helpdata.cpp" />
+    <ClCompile Include="html\helpfrm.cpp" />
+    <ClCompile Include="html\htmlcell.cpp" />
+    <ClCompile Include="html\htmlfilt.cpp" />
+    <ClCompile Include="html\htmlpars.cpp" />
+    <ClCompile Include="html\htmltag.cpp" />
+    <ClCompile Include="html\htmlwin.cpp" />
+    <ClCompile Include="html\htmprint.cpp" />
+    <ClCompile Include="html\m_dflist.cpp" />
+    <ClCompile Include="html\m_fonts.cpp" />
+    <ClCompile Include="html\m_hline.cpp" />
+    <ClCompile Include="html\m_image.cpp" />
+    <ClCompile Include="html\m_layout.cpp" />
+    <ClCompile Include="html\m_links.cpp" />
+    <ClCompile Include="html\m_list.cpp" />
+    <ClCompile Include="html\m_pre.cpp" />
+    <ClCompile Include="html\m_style.cpp" />
+    <ClCompile Include="html\m_tables.cpp" />
+    <ClCompile Include="html\winpars.cpp" />
+    <ClCompile Include="msw\accel.cpp" />
+    <ClCompile Include="msw\app.cpp" />
+    <ClCompile Include="msw\bitmap.cpp" />
+    <ClCompile Include="msw\bmpbuttn.cpp" />
+    <ClCompile Include="msw\brush.cpp" />
+    <ClCompile Include="msw\button.cpp" />
+    <ClCompile Include="msw\caret.cpp" />
+    <ClCompile Include="msw\checkbox.cpp" />
+    <ClCompile Include="msw\checklst.cpp" />
+    <ClCompile Include="msw\choice.cpp" />
+    <ClCompile Include="msw\clipbrd.cpp" />
+    <ClCompile Include="msw\colordlg.cpp" />
+    <ClCompile Include="msw\colour.cpp" />
+    <ClCompile Include="msw\combobox.cpp" />
+    <ClCompile Include="msw\control.cpp" />
+    <ClCompile Include="msw\curico.cpp" />
+    <ClCompile Include="msw\cursor.cpp" />
+    <ClCompile Include="msw\data.cpp" />
+    <ClCompile Include="msw\dc.cpp" />
+    <ClCompile Include="msw\dcclient.cpp" />
+    <ClCompile Include="msw\dcmemory.cpp" />
+    <ClCompile Include="msw\dcprint.cpp" />
+    <ClCompile Include="msw\dcscreen.cpp" />
+    <ClCompile Include="msw\dde.cpp" />
+    <ClCompile Include="msw\dialog.cpp" />
+    <ClCompile Include="msw\dialup.cpp" />
+    <ClCompile Include="msw\dib.cpp" />
+    <ClCompile Include="msw\dibutils.cpp" />
+    <ClCompile Include="msw\dir.cpp" />
+    <ClCompile Include="msw\dirdlg.cpp" />
+    <ClCompile Include="msw\dragimag.cpp" />
+    <ClCompile Include="msw\dummy.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">wx/wxprec.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="msw\enhmeta.cpp" />
+    <ClCompile Include="msw\evtloop.cpp" />
+    <ClCompile Include="msw\fdrepdlg.cpp" />
+    <ClCompile Include="msw\filedlg.cpp" />
+    <ClCompile Include="msw\font.cpp" />
+    <ClCompile Include="msw\fontdlg.cpp" />
+    <ClCompile Include="msw\fontenum.cpp" />
+    <ClCompile Include="msw\fontutil.cpp" />
+    <ClCompile Include="msw\frame.cpp" />
+    <ClCompile Include="msw\gauge95.cpp" />
+    <ClCompile Include="msw\gdiimage.cpp" />
+    <ClCompile Include="msw\gdiobj.cpp" />
+    <ClCompile Include="msw\glcanvas.cpp" />
+    <ClCompile Include="msw\gsocket.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="msw\gsockmsw.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="msw\helpbest.cpp" />
+    <ClCompile Include="msw\helpchm.cpp" />
+    <ClCompile Include="msw\helpwin.cpp" />
+    <ClCompile Include="msw\icon.cpp" />
+    <ClCompile Include="msw\imaglist.cpp" />
+    <ClCompile Include="msw\iniconf.cpp" />
+    <ClCompile Include="msw\joystick.cpp" />
+    <ClCompile Include="msw\listbox.cpp" />
+    <ClCompile Include="msw\listctrl.cpp" />
+    <ClCompile Include="msw\main.cpp" />
+    <ClCompile Include="msw\mdi.cpp" />
+    <ClCompile Include="msw\menu.cpp" />
+    <ClCompile Include="msw\menuitem.cpp" />
+    <ClCompile Include="msw\metafile.cpp" />
+    <ClCompile Include="msw\mimetype.cpp" />
+    <ClCompile Include="msw\minifram.cpp" />
+    <ClCompile Include="msw\msgdlg.cpp" />
+    <ClCompile Include="msw\mslu.cpp" />
+    <ClCompile Include="msw\nativdlg.cpp" />
+    <ClCompile Include="msw\notebook.cpp" />
+    <ClCompile Include="msw\ole\automtn.cpp" />
+    <ClCompile Include="msw\ole\dataobj.cpp" />
+    <ClCompile Include="msw\ole\dropsrc.cpp" />
+    <ClCompile Include="msw\ole\droptgt.cpp" />
+    <ClCompile Include="msw\ole\oleutils.cpp" />
+    <ClCompile Include="msw\ole\uuid.cpp" />
+    <ClCompile Include="msw\ownerdrw.cpp" />
+    <ClCompile Include="msw\palette.cpp" />
+    <ClCompile Include="msw\pen.cpp" />
+    <ClCompile Include="msw\penwin.cpp" />
+    <ClCompile Include="msw\popupwin.cpp" />
+    <ClCompile Include="msw\printdlg.cpp" />
+    <ClCompile Include="msw\printwin.cpp" />
+    <ClCompile Include="msw\radiobox.cpp" />
+    <ClCompile Include="msw\radiobut.cpp" />
+    <ClCompile Include="msw\regconf.cpp" />
+    <ClCompile Include="msw\region.cpp" />
+    <ClCompile Include="msw\registry.cpp" />
+    <ClCompile Include="msw\scrolbar.cpp" />
+    <ClCompile Include="msw\settings.cpp" />
+    <ClCompile Include="msw\slider95.cpp" />
+    <ClCompile Include="msw\snglinst.cpp" />
+    <ClCompile Include="msw\spinbutt.cpp" />
+    <ClCompile Include="msw\spinctrl.cpp" />
+    <ClCompile Include="msw\statbmp.cpp" />
+    <ClCompile Include="msw\statbox.cpp" />
+    <ClCompile Include="msw\statbr95.cpp" />
+    <ClCompile Include="msw\statline.cpp" />
+    <ClCompile Include="msw\stattext.cpp" />
+    <ClCompile Include="msw\tabctrl.cpp" />
+    <ClCompile Include="msw\taskbar.cpp" />
+    <ClCompile Include="msw\tbar95.cpp" />
+    <ClCompile Include="msw\textctrl.cpp" />
+    <ClCompile Include="msw\tglbtn.cpp" />
+    <ClCompile Include="msw\thread.cpp" />
+    <ClCompile Include="msw\timer.cpp" />
+    <ClCompile Include="msw\tooltip.cpp" />
+    <ClCompile Include="msw\toplevel.cpp" />
+    <ClCompile Include="msw\treectrl.cpp" />
+    <ClCompile Include="msw\utils.cpp" />
+    <ClCompile Include="msw\utilsexc.cpp" />
+    <ClCompile Include="msw\uxtheme.cpp" />
+    <ClCompile Include="msw\volume.cpp" />
+    <ClCompile Include="msw\wave.cpp" />
+    <ClCompile Include="msw\window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="msw\version.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\wx\accel.h" />
+    <ClInclude Include="..\include\wx\app.h" />
+    <ClInclude Include="..\include\wx\artprov.h" />
+    <ClInclude Include="..\include\wx\bitmap.h" />
+    <ClInclude Include="..\include\wx\bmpbuttn.h" />
+    <ClInclude Include="..\include\wx\brush.h" />
+    <ClInclude Include="..\include\wx\buffer.h" />
+    <ClInclude Include="..\include\wx\build.h" />
+    <ClInclude Include="..\include\wx\busyinfo.h" />
+    <ClInclude Include="..\include\wx\button.h" />
+    <ClInclude Include="..\include\wx\calctrl.h" />
+    <ClInclude Include="..\include\wx\caret.h" />
+    <ClInclude Include="..\include\wx\checkbox.h" />
+    <ClInclude Include="..\include\wx\checklst.h" />
+    <ClInclude Include="..\include\wx\chkconf.h" />
+    <ClInclude Include="..\include\wx\choicdlg.h" />
+    <ClInclude Include="..\include\wx\choice.h" />
+    <ClInclude Include="..\include\wx\clipbrd.h" />
+    <ClInclude Include="..\include\wx\clntdata.h" />
+    <ClInclude Include="..\include\wx\cmdline.h" />
+    <ClInclude Include="..\include\wx\cmdproc.h" />
+    <ClInclude Include="..\include\wx\cmndata.h" />
+    <ClInclude Include="..\include\wx\colordlg.h" />
+    <ClInclude Include="..\include\wx\colour.h" />
+    <ClInclude Include="..\include\wx\combobox.h" />
+    <ClInclude Include="..\include\wx\confbase.h" />
+    <ClInclude Include="..\include\wx\config.h" />
+    <ClInclude Include="..\include\wx\containr.h" />
+    <ClInclude Include="..\include\wx\control.h" />
+    <ClInclude Include="..\include\wx\cshelp.h" />
+    <ClInclude Include="..\include\wx\ctrlsub.h" />
+    <ClInclude Include="..\include\wx\cursor.h" />
+    <ClInclude Include="..\include\wx\dataobj.h" />
+    <ClInclude Include="..\include\wx\date.h" />
+    <ClInclude Include="..\include\wx\datetime.h" />
+    <ClInclude Include="..\include\wx\datstrm.h" />
+    <ClInclude Include="..\include\wx\db.h" />
+    <ClInclude Include="..\include\wx\dbgrid.h" />
+    <ClInclude Include="..\include\wx\dbkeyg.h" />
+    <ClInclude Include="..\include\wx\dbtable.h" />
+    <ClInclude Include="..\include\wx\dc.h" />
+    <ClInclude Include="..\include\wx\dcbuffer.h" />
+    <ClInclude Include="..\include\wx\dcclient.h" />
+    <ClInclude Include="..\include\wx\dcmemory.h" />
+    <ClInclude Include="..\include\wx\dcprint.h" />
+    <ClInclude Include="..\include\wx\dcps.h" />
+    <ClInclude Include="..\include\wx\dcscreen.h" />
+    <ClInclude Include="..\include\wx\dde.h" />
+    <ClInclude Include="..\include\wx\debug.h" />
+    <ClInclude Include="..\include\wx\defs.h" />
+    <ClInclude Include="..\include\wx\dialog.h" />
+    <ClInclude Include="..\include\wx\dialup.h" />
+    <ClInclude Include="..\include\wx\dir.h" />
+    <ClInclude Include="..\include\wx\dirctrl.h" />
+    <ClInclude Include="..\include\wx\dirdlg.h" />
+    <ClInclude Include="..\include\wx\dnd.h" />
+    <ClInclude Include="..\include\wx\docmdi.h" />
+    <ClInclude Include="..\include\wx\docview.h" />
+    <ClInclude Include="..\include\wx\dragimag.h" />
+    <ClInclude Include="..\include\wx\dynarray.h" />
+    <ClInclude Include="..\include\wx\dynlib.h" />
+    <ClInclude Include="..\include\wx\dynload.h" />
+    <ClInclude Include="..\include\wx\effects.h" />
+    <ClInclude Include="..\include\wx\encconv.h" />
+    <ClInclude Include="..\include\wx\event.h" />
+    <ClInclude Include="..\include\wx\expr.h" />
+    <ClInclude Include="..\include\wx\fdrepdlg.h" />
+    <ClInclude Include="..\include\wx\features.h" />
+    <ClInclude Include="..\include\wx\ffile.h" />
+    <ClInclude Include="..\include\wx\file.h" />
+    <ClInclude Include="..\include\wx\fileconf.h" />
+    <ClInclude Include="..\include\wx\filedlg.h" />
+    <ClInclude Include="..\include\wx\filefn.h" />
+    <ClInclude Include="..\include\wx\filename.h" />
+    <ClInclude Include="..\include\wx\filesys.h" />
+    <ClInclude Include="..\include\wx\font.h" />
+    <ClInclude Include="..\include\wx\fontdlg.h" />
+    <ClInclude Include="..\include\wx\fontenc.h" />
+    <ClInclude Include="..\include\wx\fontenum.h" />
+    <ClInclude Include="..\include\wx\fontmap.h" />
+    <ClInclude Include="..\include\wx\fontutil.h" />
+    <ClInclude Include="..\include\wx\frame.h" />
+    <ClInclude Include="..\include\wx\fs_inet.h" />
+    <ClInclude Include="..\include\wx\fs_mem.h" />
+    <ClInclude Include="..\include\wx\fs_zip.h" />
+    <ClInclude Include="..\include\wx\gauge.h" />
+    <ClInclude Include="..\include\wx\gdicmn.h" />
+    <ClInclude Include="..\include\wx\gdiobj.h" />
+    <ClInclude Include="..\include\wx\generic\accel.h" />
+    <ClInclude Include="..\include\wx\generic\calctrl.h" />
+    <ClInclude Include="..\include\wx\generic\caret.h" />
+    <ClInclude Include="..\include\wx\generic\choicdgg.h" />
+    <ClInclude Include="..\include\wx\generic\colrdlgg.h" />
+    <ClInclude Include="..\include\wx\generic\dcpsg.h" />
+    <ClInclude Include="..\include\wx\generic\dirctrlg.h" />
+    <ClInclude Include="..\include\wx\generic\dirdlgg.h" />
+    <ClInclude Include="..\include\wx\generic\dragimgg.h" />
+    <ClInclude Include="..\include\wx\generic\fdrepdlg.h" />
+    <ClInclude Include="..\include\wx\generic\filedlgg.h" />
+    <ClInclude Include="..\include\wx\generic\fontdlgg.h" />
+    <ClInclude Include="..\include\wx\generic\grid.h" />
+    <ClInclude Include="..\include\wx\generic\gridctrl.h" />
+    <ClInclude Include="..\include\wx\generic\gridg.h" />
+    <ClInclude Include="..\include\wx\generic\helpext.h" />
+    <ClInclude Include="..\include\wx\generic\helphtml.h" />
+    <ClInclude Include="..\include\wx\generic\imaglist.h" />
+    <ClInclude Include="..\include\wx\generic\laywin.h" />
+    <ClInclude Include="..\include\wx\generic\listctrl.h" />
+    <ClInclude Include="..\include\wx\generic\mdig.h" />
+    <ClInclude Include="..\include\wx\generic\msgdlgg.h" />
+    <ClInclude Include="..\include\wx\generic\notebook.h" />
+    <ClInclude Include="..\include\wx\generic\paletteg.h" />
+    <ClInclude Include="..\include\wx\generic\panelg.h" />
+    <ClInclude Include="..\include\wx\generic\printps.h" />
+    <ClInclude Include="..\include\wx\generic\prntdlgg.h" />
+    <ClInclude Include="..\include\wx\generic\progdlgg.h" />
+    <ClInclude Include="..\include\wx\generic\sashwin.h" />
+    <ClInclude Include="..\include\wx\generic\scrolwin.h" />
+    <ClInclude Include="..\include\wx\generic\spinctlg.h" />
+    <ClInclude Include="..\include\wx\generic\splash.h" />
+    <ClInclude Include="..\include\wx\generic\splitter.h" />
+    <ClInclude Include="..\include\wx\generic\statline.h" />
+    <ClInclude Include="..\include\wx\generic\statusbr.h" />
+    <ClInclude Include="..\include\wx\generic\tabg.h" />
+    <ClInclude Include="..\include\wx\generic\textdlgg.h" />
+    <ClInclude Include="..\include\wx\generic\timer.h" />
+    <ClInclude Include="..\include\wx\generic\treectlg.h" />
+    <ClInclude Include="..\include\wx\generic\wizard.h" />
+    <ClInclude Include="..\include\wx\geometry.h" />
+    <ClInclude Include="..\include\wx\gifdecod.h" />
+    <ClInclude Include="..\include\wx\glcanvas.h" />
+    <ClInclude Include="..\include\wx\grid.h" />
+    <ClInclude Include="..\include\wx\gsocket.h" />
+    <ClInclude Include="..\include\wx\hash.h" />
+    <ClInclude Include="..\include\wx\hashmap.h" />
+    <ClInclude Include="..\include\wx\help.h" />
+    <ClInclude Include="..\include\wx\helpbase.h" />
+    <ClInclude Include="..\include\wx\helphtml.h" />
+    <ClInclude Include="..\include\wx\helpwin.h" />
+    <ClInclude Include="..\include\wx\html\forcelnk.h" />
+    <ClInclude Include="..\include\wx\html\helpctrl.h" />
+    <ClInclude Include="..\include\wx\html\helpdata.h" />
+    <ClInclude Include="..\include\wx\html\helpfrm.h" />
+    <ClInclude Include="..\include\wx\html\htmlcell.h" />
+    <ClInclude Include="..\include\wx\html\htmldefs.h" />
+    <ClInclude Include="..\include\wx\html\htmlfilt.h" />
+    <ClInclude Include="..\include\wx\html\htmlpars.h" />
+    <ClInclude Include="..\include\wx\html\htmltag.h" />
+    <ClInclude Include="..\include\wx\html\htmlwin.h" />
+    <ClInclude Include="..\include\wx\html\htmprint.h" />
+    <ClInclude Include="..\include\wx\html\m_templ.h" />
+    <ClInclude Include="..\include\wx\html\winpars.h" />
+    <ClInclude Include="..\include\wx\icon.h" />
+    <ClInclude Include="..\include\wx\iconbndl.h" />
+    <ClInclude Include="..\include\wx\imagbmp.h" />
+    <ClInclude Include="..\include\wx\image.h" />
+    <ClInclude Include="..\include\wx\imaggif.h" />
+    <ClInclude Include="..\include\wx\imagiff.h" />
+    <ClInclude Include="..\include\wx\imagjpeg.h" />
+    <ClInclude Include="..\include\wx\imaglist.h" />
+    <ClInclude Include="..\include\wx\imagpcx.h" />
+    <ClInclude Include="..\include\wx\imagpng.h" />
+    <ClInclude Include="..\include\wx\imagpnm.h" />
+    <ClInclude Include="..\include\wx\imagtiff.h" />
+    <ClInclude Include="..\include\wx\imagxpm.h" />
+    <ClInclude Include="..\include\wx\intl.h" />
+    <ClInclude Include="..\include\wx\ioswrap.h" />
+    <ClInclude Include="..\include\wx\ipc.h" />
+    <ClInclude Include="..\include\wx\ipcbase.h" />
+    <ClInclude Include="..\include\wx\isql.h" />
+    <ClInclude Include="..\include\wx\isqlext.h" />
+    <ClInclude Include="..\include\wx\joystick.h" />
+    <ClInclude Include="..\include\wx\layout.h" />
+    <ClInclude Include="..\include\wx\laywin.h" />
+    <ClInclude Include="..\include\wx\list.h" />
+    <ClInclude Include="..\include\wx\listbase.h" />
+    <ClInclude Include="..\include\wx\listbox.h" />
+    <ClInclude Include="..\include\wx\listctrl.h" />
+    <ClInclude Include="..\include\wx\log.h" />
+    <ClInclude Include="..\include\wx\longlong.h" />
+    <ClInclude Include="..\include\wx\matrix.h" />
+    <ClInclude Include="..\include\wx\mdi.h" />
+    <ClInclude Include="..\include\wx\memconf.h" />
+    <ClInclude Include="..\include\wx\memory.h" />
+    <ClInclude Include="..\include\wx\memtext.h" />
+    <ClInclude Include="..\include\wx\menu.h" />
+    <ClInclude Include="..\include\wx\menuitem.h" />
+    <ClInclude Include="..\include\wx\metafile.h" />
+    <ClInclude Include="..\include\wx\mimetype.h" />
+    <ClInclude Include="..\include\wx\minifram.h" />
+    <ClInclude Include="..\include\wx\module.h" />
+    <ClInclude Include="..\include\wx\msgdlg.h" />
+    <ClInclude Include="..\include\wx\msgout.h" />
+    <ClInclude Include="..\include\wx\mstream.h" />
+    <ClInclude Include="..\include\wx\msw\accel.h" />
+    <ClInclude Include="..\include\wx\msw\app.h" />
+    <ClInclude Include="..\include\wx\msw\bitmap.h" />
+    <ClInclude Include="..\include\wx\msw\bmpbuttn.h" />
+    <ClInclude Include="..\include\wx\msw\brush.h" />
+    <ClInclude Include="..\include\wx\msw\button.h" />
+    <ClInclude Include="..\include\wx\msw\caret.h" />
+    <ClInclude Include="..\include\wx\msw\checkbox.h" />
+    <ClInclude Include="..\include\wx\msw\checklst.h" />
+    <ClInclude Include="..\include\wx\msw\choice.h" />
+    <ClInclude Include="..\include\wx\msw\clipbrd.h" />
+    <ClInclude Include="..\include\wx\msw\colordlg.h" />
+    <ClInclude Include="..\include\wx\msw\colour.h" />
+    <ClInclude Include="..\include\wx\msw\combobox.h" />
+    <ClInclude Include="..\include\wx\msw\control.h" />
+    <ClInclude Include="..\include\wx\msw\curico.h" />
+    <ClInclude Include="..\include\wx\msw\curicop.h" />
+    <ClInclude Include="..\include\wx\msw\cursor.h" />
+    <ClInclude Include="..\include\wx\msw\dc.h" />
+    <ClInclude Include="..\include\wx\msw\dcclient.h" />
+    <ClInclude Include="..\include\wx\msw\dcmemory.h" />
+    <ClInclude Include="..\include\wx\msw\dcprint.h" />
+    <ClInclude Include="..\include\wx\msw\dcscreen.h" />
+    <ClInclude Include="..\include\wx\msw\dde.h" />
+    <ClInclude Include="..\include\wx\msw\dialog.h" />
+    <ClInclude Include="..\include\wx\msw\dib.h" />
+    <ClInclude Include="..\include\wx\msw\dibutils.h" />
+    <ClInclude Include="..\include\wx\msw\dirdlg.h" />
+    <ClInclude Include="..\include\wx\msw\dragimag.h" />
+    <ClInclude Include="..\include\wx\msw\enhmeta.h" />
+    <ClInclude Include="..\include\wx\msw\fdrepdlg.h" />
+    <ClInclude Include="..\include\wx\msw\filedlg.h" />
+    <ClInclude Include="..\include\wx\msw\font.h" />
+    <ClInclude Include="..\include\wx\msw\fontdlg.h" />
+    <ClInclude Include="..\include\wx\msw\frame.h" />
+    <ClInclude Include="..\include\wx\msw\gauge95.h" />
+    <ClInclude Include="..\include\wx\msw\gaugemsw.h" />
+    <ClInclude Include="..\include\wx\msw\gccpriv.h" />
+    <ClInclude Include="..\include\wx\msw\gdiimage.h" />
+    <ClInclude Include="..\include\wx\msw\gdiobj.h" />
+    <ClInclude Include="..\include\wx\msw\glcanvas.h" />
+    <ClInclude Include="..\include\wx\msw\helpbest.h" />
+    <ClInclude Include="..\include\wx\msw\helpchm.h" />
+    <ClInclude Include="..\include\wx\msw\helpwin.h" />
+    <ClInclude Include="..\include\wx\msw\icon.h" />
+    <ClInclude Include="..\include\wx\msw\imaglist.h" />
+    <ClInclude Include="..\include\wx\msw\iniconf.h" />
+    <ClInclude Include="..\include\wx\msw\joystick.h" />
+    <ClInclude Include="..\include\wx\msw\listbox.h" />
+    <ClInclude Include="..\include\wx\msw\listctrl.h" />
+    <ClInclude Include="..\include\wx\msw\mdi.h" />
+    <ClInclude Include="..\include\wx\msw\menu.h" />
+    <ClInclude Include="..\include\wx\msw\menuitem.h" />
+    <ClInclude Include="..\include\wx\msw\metafile.h" />
+    <ClInclude Include="..\include\wx\msw\mimetype.h" />
+    <ClInclude Include="..\include\wx\msw\minifram.h" />
+    <ClInclude Include="..\include\wx\msw\missing.h" />
+    <ClInclude Include="..\include\wx\msw\msgdlg.h" />
+    <ClInclude Include="..\include\wx\msw\mslu.h" />
+    <ClInclude Include="..\include\wx\msw\msvcrt.h" />
+    <ClInclude Include="..\include\wx\msw\notebook.h" />
+    <ClInclude Include="..\include\wx\msw\palette.h" />
+    <ClInclude Include="..\include\wx\msw\pen.h" />
+    <ClInclude Include="..\include\wx\msw\printdlg.h" />
+    <ClInclude Include="..\include\wx\msw\printwin.h" />
+    <ClInclude Include="..\include\wx\msw\private.h" />
+    <ClInclude Include="..\include\wx\msw\radiobox.h" />
+    <ClInclude Include="..\include\wx\msw\radiobut.h" />
+    <ClInclude Include="..\include\wx\msw\regconf.h" />
+    <ClInclude Include="..\include\wx\msw\region.h" />
+    <ClInclude Include="..\include\wx\msw\registry.h" />
+    <ClInclude Include="..\include\wx\msw\scrolbar.h" />
+    <CustomBuild Include="..\include\wx\msw\setup.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "%(FullPath)" ..\lib\msw\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating ..\lib\msw\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../lib/msw/wx/setup.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">copy "%(FullPath)" ..\lib\mswdll\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">Creating ..\lib\mswdll\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release DLL|Win32'">../lib/mswdll/wx/setup.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">copy "%(FullPath)" ..\lib\mswu\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">Creating ..\lib\mswu\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">../lib/mswu/wx/setup.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">copy "%(FullPath)" ..\lib\mswud\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">Creating ..\lib\mswud\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">../lib/mswud/wx/setup.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">copy "%(FullPath)" ..\lib\mswdllu\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">Creating ..\lib\mswdllu\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release Unicode DLL|Win32'">../lib/mswdllu/wx/setup.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">copy "%(FullPath)" ..\lib\mswdllud\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">Creating ..\lib\mswdllud\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug Unicode DLL|Win32'">../lib/mswdllud/wx/setup.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "%(FullPath)" ..\lib\mswd\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating ..\lib\mswd\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../lib/mswd/wx/setup.h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">copy "%(FullPath)" ..\lib\mswdlld\wx\setup.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">Creating ..\lib\mswdlld\wx\setup.h from %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug DLL|Win32'">../lib/mswdlld/wx/setup.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\include\wx\msw\slider95.h" />
+    <ClInclude Include="..\include\wx\msw\slidrmsw.h" />
+    <ClInclude Include="..\include\wx\msw\spinbutt.h" />
+    <ClInclude Include="..\include\wx\msw\spinctrl.h" />
+    <ClInclude Include="..\include\wx\msw\statbmp.h" />
+    <ClInclude Include="..\include\wx\msw\statbox.h" />
+    <ClInclude Include="..\include\wx\msw\statbr95.h" />
+    <ClInclude Include="..\include\wx\msw\statline.h" />
+    <ClInclude Include="..\include\wx\msw\stattext.h" />
+    <ClInclude Include="..\include\wx\msw\tabctrl.h" />
+    <ClInclude Include="..\include\wx\msw\taskbar.h" />
+    <ClInclude Include="..\include\wx\msw\tbar95.h" />
+    <ClInclude Include="..\include\wx\msw\tbarmsw.h" />
+    <ClInclude Include="..\include\wx\msw\textctrl.h" />
+    <ClInclude Include="..\include\wx\msw\tglbtn.h" />
+    <ClInclude Include="..\include\wx\msw\timer.h" />
+    <ClInclude Include="..\include\wx\msw\tooltip.h" />
+    <ClInclude Include="..\include\wx\msw\toplevel.h" />
+    <ClInclude Include="..\include\wx\msw\treectrl.h" />
+    <ClInclude Include="..\include\wx\msw\wave.h" />
+    <ClInclude Include="..\include\wx\msw\window.h" />
+    <ClInclude Include="..\include\wx\msw\winundef.h" />
+    <ClInclude Include="..\include\wx\notebook.h" />
+    <ClInclude Include="..\include\wx\object.h" />
+    <ClInclude Include="..\include\wx\odbc.h" />
+    <ClInclude Include="..\include\wx\ownerdrw.h" />
+    <ClInclude Include="..\include\wx\palette.h" />
+    <ClInclude Include="..\include\wx\panel.h" />
+    <ClInclude Include="..\include\wx\paper.h" />
+    <ClInclude Include="..\include\wx\pen.h" />
+    <ClInclude Include="..\include\wx\platform.h" />
+    <ClInclude Include="..\include\wx\popupwin.h" />
+    <ClInclude Include="..\include\wx\print.h" />
+    <ClInclude Include="..\include\wx\printdlg.h" />
+    <ClInclude Include="..\include\wx\prntbase.h" />
+    <ClInclude Include="..\include\wx\process.h" />
+    <ClInclude Include="..\include\wx\progdlg.h" />
+    <ClInclude Include="..\include\wx\prop.h" />
+    <ClInclude Include="..\include\wx\propform.h" />
+    <ClInclude Include="..\include\wx\proplist.h" />
+    <ClInclude Include="..\include\wx\quantize.h" />
+    <ClInclude Include="..\include\wx\radiobox.h" />
+    <ClInclude Include="..\include\wx\radiobut.h" />
+    <ClInclude Include="..\include\wx\regex.h" />
+    <ClInclude Include="..\include\wx\region.h" />
+    <ClInclude Include="..\include\wx\resource.h" />
+    <ClInclude Include="..\include\wx\sashwin.h" />
+    <ClInclude Include="..\include\wx\sckaddr.h" />
+    <ClInclude Include="..\include\wx\sckipc.h" />
+    <ClInclude Include="..\include\wx\sckstrm.h" />
+    <ClInclude Include="..\include\wx\scrolbar.h" />
+    <ClInclude Include="..\include\wx\scrolwin.h" />
+    <ClInclude Include="..\include\wx\settings.h" />
+    <ClInclude Include="..\include\wx\sizer.h" />
+    <ClInclude Include="..\include\wx\slider.h" />
+    <ClInclude Include="..\include\wx\snglinst.h" />
+    <ClInclude Include="..\include\wx\socket.h" />
+    <ClInclude Include="..\include\wx\spinbutt.h" />
+    <ClInclude Include="..\include\wx\spinctrl.h" />
+    <ClInclude Include="..\include\wx\splash.h" />
+    <ClInclude Include="..\include\wx\splitter.h" />
+    <ClInclude Include="..\include\wx\stack.h" />
+    <ClInclude Include="..\include\wx\statbmp.h" />
+    <ClInclude Include="..\include\wx\statbox.h" />
+    <ClInclude Include="..\include\wx\statline.h" />
+    <ClInclude Include="..\include\wx\stattext.h" />
+    <ClInclude Include="..\include\wx\statusbr.h" />
+    <ClInclude Include="..\include\wx\strconv.h" />
+    <ClInclude Include="..\include\wx\stream.h" />
+    <ClInclude Include="..\include\wx\string.h" />
+    <ClInclude Include="..\include\wx\sysopt.h" />
+    <ClInclude Include="..\include\wx\tab.h" />
+    <ClInclude Include="..\include\wx\tabctrl.h" />
+    <ClInclude Include="..\include\wx\taskbar.h" />
+    <ClInclude Include="..\include\wx\tbarbase.h" />
+    <ClInclude Include="..\include\wx\tbarsmpl.h" />
+    <ClInclude Include="..\include\wx\textbuf.h" />
+    <ClInclude Include="..\include\wx\textctrl.h" />
+    <ClInclude Include="..\include\wx\textdlg.h" />
+    <ClInclude Include="..\include\wx\textfile.h" />
+    <ClInclude Include="..\include\wx\tglbtn.h" />
+    <ClInclude Include="..\include\wx\thread.h" />
+    <ClInclude Include="..\include\wx\time.h" />
+    <ClInclude Include="..\include\wx\timer.h" />
+    <ClInclude Include="..\include\wx\tipdlg.h" />
+    <ClInclude Include="..\include\wx\tipwin.h" />
+    <ClInclude Include="..\include\wx\tokenzr.h" />
+    <ClInclude Include="..\include\wx\toolbar.h" />
+    <ClInclude Include="..\include\wx\tooltip.h" />
+    <ClInclude Include="..\include\wx\toplevel.h" />
+    <ClInclude Include="..\include\wx\treebase.h" />
+    <ClInclude Include="..\include\wx\treectrl.h" />
+    <ClInclude Include="..\include\wx\txtstrm.h" />
+    <ClInclude Include="..\include\wx\types.h" />
+    <ClInclude Include="..\include\wx\url.h" />
+    <ClInclude Include="..\include\wx\utils.h" />
+    <ClInclude Include="..\include\wx\valgen.h" />
+    <ClInclude Include="..\include\wx\validate.h" />
+    <ClInclude Include="..\include\wx\valtext.h" />
+    <ClInclude Include="..\include\wx\variant.h" />
+    <ClInclude Include="..\include\wx\vector.h" />
+    <ClInclude Include="..\include\wx\version.h" />
+    <ClInclude Include="..\include\wx\volume.h" />
+    <ClInclude Include="..\include\wx\wave.h" />
+    <ClInclude Include="..\include\wx\wfstream.h" />
+    <ClInclude Include="..\include\wx\window.h" />
+    <ClInclude Include="..\include\wx\wizard.h" />
+    <ClInclude Include="..\include\wx\wx.h" />
+    <ClInclude Include="..\include\wx\wxchar.h" />
+    <ClInclude Include="..\include\wx\wxexpr.h" />
+    <ClInclude Include="..\include\wx\wxhtml.h" />
+    <ClInclude Include="..\include\wx\wxprec.h" />
+    <ClInclude Include="..\include\wx\wx_cw.h" />
+    <ClInclude Include="..\include\wx\wx_cw_cm.h" />
+    <ClInclude Include="..\include\wx\wx_cw_d.h" />
+    <ClInclude Include="..\include\wx\xpmdecod.h" />
+    <ClInclude Include="..\include\wx\zipstrm.h" />
+    <ClInclude Include="..\include\wx\zstream.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\include\wx\datetime.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="jpeg\jpeg.vcxproj">
+      <Project>{bbfea15a-c85f-49bd-86a8-f7cc70f7fb25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="png\png.vcxproj">
+      <Project>{8b0d90d3-36f7-40da-a465-26c952ff4187}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="regex\regex.vcxproj">
+      <Project>{0fd1b8a9-271c-44aa-9ba3-84e850fe1739}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="tiff\tiff.vcxproj">
+      <Project>{f5dae1a9-b818-4102-80c2-50d5e4a666a6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="zlib\zlib.vcxproj">
+      <Project>{71c2a22a-6b69-466f-b340-247bf5ef3138}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

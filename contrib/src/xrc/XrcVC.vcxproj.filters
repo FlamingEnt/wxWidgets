@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Expat">
+      <UniqueIdentifier>{089158a7-c030-4865-9e42-a48b5d0ae593}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="expat\xmlparse\xmlparse.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="expat\xmltok\xmlrole.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="expat\xmltok\xmltok.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="xh_bmp.cpp" />
+    <ClCompile Include="xh_bmpbt.cpp" />
+    <ClCompile Include="xh_bttn.cpp" />
+    <ClCompile Include="xh_cald.cpp" />
+    <ClCompile Include="xh_chckb.cpp" />
+    <ClCompile Include="xh_chckl.cpp" />
+    <ClCompile Include="xh_choic.cpp" />
+    <ClCompile Include="xh_combo.cpp" />
+    <ClCompile Include="xh_dlg.cpp" />
+    <ClCompile Include="xh_frame.cpp" />
+    <ClCompile Include="xh_gauge.cpp" />
+    <ClCompile Include="xh_gdctl.cpp" />
+    <ClCompile Include="xh_html.cpp" />
+    <ClCompile Include="xh_listb.cpp" />
+    <ClCompile Include="xh_listc.cpp" />
+    <ClCompile Include="xh_menu.cpp" />
+    <ClCompile Include="xh_notbk.cpp" />
+    <ClCompile Include="xh_panel.cpp" />
+    <ClCompile Include="xh_radbt.cpp" />
+    <ClCompile Include="xh_radbx.cpp" />
+    <ClCompile Include="xh_scrol.cpp" />
+    <ClCompile Include="xh_scwin.cpp" />
+    <ClCompile Include="xh_sizer.cpp" />
+    <ClCompile Include="xh_slidr.cpp" />
+    <ClCompile Include="xh_spin.cpp" />
+    <ClCompile Include="xh_split.cpp" />
+    <ClCompile Include="xh_stbmp.cpp" />
+    <ClCompile Include="xh_stbox.cpp" />
+    <ClCompile Include="xh_stlin.cpp" />
+    <ClCompile Include="xh_sttxt.cpp" />
+    <ClCompile Include="xh_text.cpp" />
+    <ClCompile Include="xh_toolb.cpp" />
+    <ClCompile Include="xh_tree.cpp" />
+    <ClCompile Include="xh_unkwn.cpp" />
+    <ClCompile Include="xh_wizrd.cpp" />
+    <ClCompile Include="xml.cpp" />
+    <ClCompile Include="xmlres.cpp" />
+    <ClCompile Include="xmlrsall.cpp" />
+  </ItemGroup>
+</Project>

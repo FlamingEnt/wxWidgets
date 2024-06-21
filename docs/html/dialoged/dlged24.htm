@@ -1,0 +1,48 @@
+<HTML>
+<head><title>Overview</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="topic15"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged23.htm#technotes"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged23.htm#technotes"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged25.htm#topic16"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H2>Overview</H2>
+<P>
+The dialog editor is written as a library, to be invoked by other programs. As you can see,
+dialoged.cc is a very small program which invokes the main window via a wxResourceManager
+object. The wxResourceManager object controls the user interface and other aspects
+of the dialog editor.<P>
+There is wxResourceTable object in wxResourceManager: this contains a list of
+all the wxItemResources currently being edited. wxResourceTable and wxItemResource
+are classes already in wxWindows, defined in wx_res.h. In order to edit a new
+dialog box, the dialog is created, and the existing event handler is temporarily replaced
+with a new one which defines editing functionality. This allows existing dialogs - even
+instances of subclasses of wxDialogBox - to be edited, the application-specific functionality
+being temporarily taken over by the dialog editor.<P>
+In order to edit the properties of a dialog box or item, a property list editor is invoked.
+This uses the property classes from utils/wxprop. In order to map between properties and the
+actual window API, such as SetSize and GetSize, a 'proxy' class called wxPropertyInfo
+has been defined, with a subclass for each class of wxWindows window to be edited.
+This class defines the main members SetProperty, GetProperty, GetPropertyNames,
+which transform the normal API into 'property' terms.<P>
+Properties are mostly extracted directly from the window being edited. This is
+in contrast with wxBuilder, where everything is stored in a set of parallel
+data structures, and windows 'properties' only only set. However, there
+are exceptions to this rule in the dialog editor. There <I>is</I> in fact a set of
+parallel objects, the wxItemResource objects which can be seen listed in
+the main Dialog Editor window as a dialog is built up. These usually parallel
+the properties in the windows, but occasionally this is not possible. For example,
+all dialog boxes being edited must be modeless: or the user would not be
+able to access other windows. However, the user must be able to specify that
+when used in an application, that dialog box will be modal. In this case,
+the value in the wxItemResource will not match that in the actual dialog box.<P>
+There is a major problem with taking values directly from the windows: this
+information sometimes does not match what went in. In Motif and XView,
+size values returned are not the same as those given. This causes speedy
+'degeneration' of window properties. Under Windows, properties are almost
+always consistent. The other platforms will need to be catered for by
+relying more on the wxItemResource objects, and not taking size
+information directly from windows.<P>
+
+<A HREF="dlged25.htm#topic16"><B>Dynamic setting versus recreation</B></A><BR>
+
+</FONT></BODY></HTML>

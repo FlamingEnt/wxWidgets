@@ -1,0 +1,22 @@
+<HTML>
+<head><title>Working with identifiers</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="topic13"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged13.htm#procedures"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged17.htm#topic12"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged19.htm#topic14"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H2>Working with identifiers</H2>
+<P>
+Dialog Editor keeps track of identifiers in your resources, and reads and writes an include file of the
+form <TT>name.h</TT> where 'name' is the root name of your <TT>.wxr</TT> file. Dialog Editor
+knows about the predefined identifiers such as wxID_OK.<P>
+When you create a dialog or control, the identifier is initially generated. When you
+edit the identifier via a property editor, you can choose a new name, such as a predefined
+symbol and optionally change the integer assigned to the name (assuming it's not a
+predefined symbol).<P>
+When you save the project, the identifier include file is saved as well. Include this file
+in your project so that you can refer to controls and dialogs by identifier rather than
+obscure integers. Note that the <TT>.wxr</TT> file itself can only contain integer ids and not the symbols,
+due to way in which the resource file is loaded.<P>
+
+</FONT></BODY></HTML>

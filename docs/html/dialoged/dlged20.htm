@@ -1,0 +1,33 @@
+<HTML>
+<head><title>Converting old files</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="convertingoldfiles"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged13.htm#procedures"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged19.htm#topic14"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged21.htm#changes"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H2>Converting old files</H2>
+<P>
+Dialog Editor can make an attempt at converting dialog resources created with Dialog Editor for wxWindows 1.68.
+The command is <B>Convert Old Resources...</B> on the <B>File</B> menu.<P>
+You need to specify two directories, an input and an output directory. Dialog Editor will
+do the following conversions:<P>
+<OL>
+
+<LI> wxMultiText becomes a wxTextCtrl with wxTE_MULTILINE style.
+<LI> wxText becomes a wxTextCtrl.
+<LI> wxMessage becomes either a wxStaticText or wxStaticBitmap.
+<LI> wxButton becomes a wxBitmapButton if necessary.
+<LI> wxGroupBox becomes wxStaticBox.
+<LI> Controls that no longer have labels, such as wxTextCtrl and wxListBox,
+have a separate wxStaticText control created for them at approximately the correct
+position. The label's window name becomes ControlName_Label where ControlName is
+the name of the control that formerly had the label.
+<LI> Identifiers are allocated.
+<LI> Font sizes are reduced to counter the decreased font size now created by wxWindows
+for a given point size.
+<LI> The dialog height is reduced slightly to compensate for the fact that the dialog caption
+is no longer included in the size.
+</OL>
+<P>
+
+</FONT></BODY></HTML>

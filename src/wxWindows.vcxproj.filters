@@ -1,0 +1,2221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{fc23ae62-e58b-42e0-be70-03c308e40497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic Files">
+      <UniqueIdentifier>{c25edaa7-fd91-4847-85e9-c68ea63959ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxHTML Files">
+      <UniqueIdentifier>{ce856e1b-b65d-4f3f-8540-dcfdbc398b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Files">
+      <UniqueIdentifier>{fce0ae0e-d45e-40b0-b161-63b87ae42d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Files\OLE Files">
+      <UniqueIdentifier>{d5705beb-cc9c-4df1-9180-19c87e716632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{d36b9b87-d934-4d87-ba8a-69ea8416b330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Setup">
+      <UniqueIdentifier>{06ccd5d5-ab7a-437a-981b-e0c7c065893a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Common">
+      <UniqueIdentifier>{b8c8e8bc-23eb-4e53-81bd-2339b11d1b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\MSW">
+      <UniqueIdentifier>{90a58ae3-ea4d-4595-b786-263c4e21e08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Generic">
+      <UniqueIdentifier>{11d7e7fc-641a-4853-96db-96be13ddc6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\HTML">
+      <UniqueIdentifier>{7f33741e-0aad-432f-b06b-4ad887c21b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Expat">
+      <UniqueIdentifier>{d22f694d-7d75-41cd-81c3-d792636966a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XRC Files">
+      <UniqueIdentifier>{1080701b-9214-420f-8442-904e1e06306c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\appcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\artprov.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\artstd.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\choiccmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\clipcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\clntdata.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cmdline.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cmdproc.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cmndata.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\config.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\containr.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cshelp.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ctrlcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ctrlsub.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\datetime.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\datstrm.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\db.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dbgrid.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dbtable.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dcbase.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dircmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dlgcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dndcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dobjcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\docmdi.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\docview.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dosyacc.c">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dseldlg.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dynarray.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dynlib.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dynload.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\effects.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\encconv.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\event.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\extended.c">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fddlgcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ffile.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\file.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fileconf.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\filefn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\filename.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\filesys.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fontcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fontmap.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\framecmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fs_inet.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fs_mem.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\fs_zip.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ftp.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gaugecmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gdicmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\geometry.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\gifdecod.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\hash.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\hashmap.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\helpbase.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\http.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\iconbndl.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagall.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagbmp.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\image.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagfill.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imaggif.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagiff.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagjpeg.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagpcx.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagpng.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagpnm.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagtiff.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\imagxpm.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\intl.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ipcbase.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\layout.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\lboxcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\list.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\log.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\longlong.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\matrix.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\memory.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\menucmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mimecmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\module.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\msgout.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mstream.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\nbkbase.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\object.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\odbc.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\paper.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\popupcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\prntbase.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\process.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\protocol.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\quantize.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\radiocmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\regex.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\resource.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\rgncmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sckaddr.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sckfile.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sckipc.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sckstrm.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\settcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sizer.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\socket.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\statbar.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\strconv.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\stream.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\string.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sysopt.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tbarbase.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\textbuf.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\textcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\textfile.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\timercmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tokenzr.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\toplvcmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\treebase.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\txtstrm.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\unzip.c">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\url.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\utilscmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\valgen.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\validate.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\valtext.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\variant.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\wfstream.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\wincmn.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\wxchar.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\wxexpr.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\xpmdecod.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\zipstrm.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\zstream.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\busyinfo.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\calctrl.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\choicdgg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\dcbuffer.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\dcpsg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\dirctrlg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\dragimgg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\grid.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\gridctrl.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\gridsel.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\laywin.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\logg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\numdlgg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\panelg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\progdlgg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\prop.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\propform.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\proplist.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\sashwin.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\scrlwing.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\spinctlg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\splash.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\splitter.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\statusbr.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tbarsmpl.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\textdlgg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tipdlg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\tipwin.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\treectlg.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\treelay.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generic\wizard.cpp">
+      <Filter>Generic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\helpctrl.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\helpdata.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\helpfrm.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\htmlcell.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\htmlfilt.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\htmlpars.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\htmltag.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\htmlwin.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\htmprint.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_dflist.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_fonts.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_hline.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_image.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_layout.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_links.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_list.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_pre.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_style.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\m_tables.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="html\winpars.cpp">
+      <Filter>wxHTML Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\ole\automtn.cpp">
+      <Filter>MSW Files\OLE Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\ole\dataobj.cpp">
+      <Filter>MSW Files\OLE Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\ole\dropsrc.cpp">
+      <Filter>MSW Files\OLE Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\ole\droptgt.cpp">
+      <Filter>MSW Files\OLE Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\ole\oleutils.cpp">
+      <Filter>MSW Files\OLE Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\ole\uuid.cpp">
+      <Filter>MSW Files\OLE Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\accel.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\app.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\bitmap.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\bmpbuttn.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\brush.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\button.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\caret.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\checkbox.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\checklst.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\choice.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\clipbrd.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\colordlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\colour.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\combobox.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\control.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\curico.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\cursor.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\data.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dc.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dcclient.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dcmemory.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dcprint.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dcscreen.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dde.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dialog.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dialup.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dib.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dibutils.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dir.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dirdlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dragimag.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\dummy.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\enhmeta.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\evtloop.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\fdrepdlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\filedlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\font.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\fontdlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\fontenum.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\fontutil.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\frame.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\gauge95.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\gdiimage.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\gdiobj.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\glcanvas.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\gsocket.c">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\gsockmsw.c">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\helpbest.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\helpchm.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\helpwin.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\icon.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\imaglist.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\iniconf.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\joystick.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\listbox.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\listctrl.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\main.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\mdi.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\menu.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\menuitem.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\metafile.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\mimetype.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\minifram.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\msgdlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\mslu.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\nativdlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\notebook.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\ownerdrw.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\palette.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\pen.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\penwin.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\popupwin.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\printdlg.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\printwin.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\radiobox.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\radiobut.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\regconf.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\region.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\registry.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\scrolbar.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\settings.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\slider95.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\snglinst.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\spinbutt.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\spinctrl.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\statbmp.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\statbox.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\statbr95.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\statline.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\stattext.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\tabctrl.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\taskbar.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\tbar95.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\textctrl.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\tglbtn.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\thread.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\timer.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\tooltip.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\toplevel.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\treectrl.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\utils.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\utilsexc.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\uxtheme.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\volume.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\wave.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msw\window.cpp">
+      <Filter>MSW Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\expat\xmlparse\xmlparse.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\expat\xmltok\xmlrole.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\expat\xmltok\xmltok.c">
+      <Filter>Expat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_bmp.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_bmpbt.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_bttn.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_cald.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_chckb.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_chckl.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_choic.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_combo.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_dlg.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_frame.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_gauge.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_gdctl.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_html.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_listb.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_listc.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_menu.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_notbk.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_panel.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_radbt.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_radbx.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_scrol.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_scwin.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_sizer.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_slidr.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_spin.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_split.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_stbmp.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_stbox.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_stlin.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_sttxt.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_text.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_toolb.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_tree.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_unkwn.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xh_wizrd.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xml.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xmlres.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\xrc\xmlrsall.cpp">
+      <Filter>XRC Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="msw\version.rc">
+      <Filter>MSW Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\wx\accel.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\app.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\artprov.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\bitmap.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\bmpbuttn.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\brush.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\buffer.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\build.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\busyinfo.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\button.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\calctrl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\caret.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\checkbox.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\checklst.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\chkconf.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\choicdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\choice.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\clipbrd.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\clntdata.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\cmdline.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\cmdproc.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\cmndata.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\colordlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\colour.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\combobox.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\confbase.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\config.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\containr.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\control.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\cshelp.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\ctrlsub.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\cursor.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dataobj.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\date.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\datetime.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\datstrm.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\db.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dbgrid.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dbkeyg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dbtable.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dc.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dcbuffer.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dcclient.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dcmemory.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dcprint.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dcps.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dcscreen.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dde.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\debug.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\defs.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dialog.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dialup.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dir.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dirctrl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dirdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dnd.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\docmdi.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\docview.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dragimag.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dynarray.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dynlib.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\dynload.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\effects.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\encconv.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\event.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\expr.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fdrepdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\features.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\ffile.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\file.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fileconf.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\filedlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\filefn.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\filename.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\filesys.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\font.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fontdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fontenc.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fontenum.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fontmap.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fontutil.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\frame.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fs_inet.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fs_mem.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\fs_zip.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\gauge.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\gdicmn.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\gdiobj.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\geometry.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\gifdecod.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\glcanvas.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\grid.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\gsocket.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\hash.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\hashmap.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\help.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\helpbase.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\helphtml.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\helpwin.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\icon.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\iconbndl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagbmp.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\image.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imaggif.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagiff.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagjpeg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imaglist.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagpcx.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagpng.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagpnm.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagtiff.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\imagxpm.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\intl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\ioswrap.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\ipc.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\ipcbase.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\isql.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\isqlext.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\joystick.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\layout.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\laywin.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\list.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\listbase.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\listbox.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\listctrl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\log.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\longlong.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\matrix.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\mdi.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\memconf.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\memory.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\memtext.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\menu.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\menuitem.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\metafile.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\mimetype.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\minifram.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\module.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msgdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msgout.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\mstream.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\notebook.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\object.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\odbc.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\ownerdrw.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\palette.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\panel.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\paper.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\pen.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\platform.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\popupwin.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\print.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\printdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\prntbase.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\process.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\progdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\prop.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\propform.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\proplist.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\quantize.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\radiobox.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\radiobut.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\regex.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\region.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\resource.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\sashwin.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\sckaddr.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\sckipc.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\sckstrm.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\scrolbar.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\scrolwin.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\settings.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\sizer.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\slider.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\snglinst.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\socket.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\spinbutt.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\spinctrl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\splash.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\splitter.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\stack.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\statbmp.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\statbox.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\statline.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\stattext.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\statusbr.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\strconv.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\stream.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\string.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\sysopt.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tab.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tabctrl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\taskbar.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tbarbase.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tbarsmpl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\textbuf.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\textctrl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\textdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\textfile.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tglbtn.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\thread.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\time.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\timer.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tipdlg.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tipwin.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tokenzr.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\toolbar.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\tooltip.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\toplevel.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\treebase.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\treectrl.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\txtstrm.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\types.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\url.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\utils.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\valgen.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\validate.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\valtext.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\variant.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\vector.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\version.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\volume.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wave.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wfstream.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\window.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wizard.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wx.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wx_cw.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wx_cw_cm.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wx_cw_d.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wxchar.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wxexpr.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wxhtml.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\wxprec.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\xpmdecod.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\zipstrm.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\zstream.h">
+      <Filter>Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\accel.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\app.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\bitmap.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\bmpbuttn.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\brush.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\button.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\caret.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\checkbox.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\checklst.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\choice.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\clipbrd.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\colordlg.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\colour.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\combobox.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\control.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\curico.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\curicop.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\cursor.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dc.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dcclient.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dcmemory.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dcprint.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dcscreen.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dde.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dialog.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dib.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dibutils.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dirdlg.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\dragimag.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\enhmeta.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\fdrepdlg.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\filedlg.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\font.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\fontdlg.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\frame.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\gauge95.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\gaugemsw.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\gccpriv.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\gdiimage.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\gdiobj.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\glcanvas.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\helpbest.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\helpchm.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\helpwin.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\icon.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\imaglist.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\iniconf.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\joystick.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\listbox.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\listctrl.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\mdi.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\menu.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\menuitem.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\metafile.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\mimetype.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\minifram.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\missing.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\msgdlg.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\mslu.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\msvcrt.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\notebook.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\palette.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\pen.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\printdlg.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\printwin.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\private.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\radiobox.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\radiobut.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\regconf.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\region.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\registry.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\scrolbar.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\slider95.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\slidrmsw.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\spinbutt.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\spinctrl.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\statbmp.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\statbox.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\statbr95.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\statline.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\stattext.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\tabctrl.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\taskbar.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\tbar95.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\tbarmsw.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\textctrl.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\tglbtn.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\timer.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\tooltip.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\toplevel.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\treectrl.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\wave.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\window.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\msw\winundef.h">
+      <Filter>Headers\MSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\accel.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\calctrl.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\caret.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\choicdgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\colrdlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\dcpsg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\dirctrlg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\dirdlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\dragimgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\fdrepdlg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\filedlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\fontdlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\grid.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\gridctrl.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\gridg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\helpext.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\helphtml.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\imaglist.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\laywin.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\listctrl.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\mdig.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\msgdlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\notebook.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\paletteg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\panelg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\printps.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\prntdlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\progdlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\sashwin.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\scrolwin.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\spinctlg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\splash.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\splitter.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\statline.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\statusbr.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\tabg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\textdlgg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\timer.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\treectlg.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\generic\wizard.h">
+      <Filter>Headers\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\forcelnk.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\helpctrl.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\helpdata.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\helpfrm.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\htmlcell.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\htmldefs.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\htmlfilt.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\htmlpars.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\htmltag.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\htmlwin.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\htmprint.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\m_templ.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wx\html\winpars.h">
+      <Filter>Headers\HTML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\include\wx\msw\setup.h">
+      <Filter>Headers\Setup</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\include\wx\datetime.inl">
+      <Filter>Headers\Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

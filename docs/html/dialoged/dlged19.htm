@@ -1,0 +1,24 @@
+<HTML>
+<head><title>Multi-platform development</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="topic14"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged13.htm#procedures"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged18.htm#topic13"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged20.htm#convertingoldfiles"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H2>Multi-platform development</H2>
+<P>
+<TT>.wxr</TT> files generated on one environment (e.g. Windows) can be used in another (e.g. GTK).
+If you use default fonts and colouring (set <B>useSystemDefaults</B> to True in the dialog properties)
+then the dialog fonts and colours will take on the native values, rather than ones specified in the
+resource. Without this, colours in the dialog resource may not match system colours.<P>
+Also, set <B>useDialogUnits</B> to True whenever possible since this will cause the dialog
+to be created using a scale based on the current system font size, and will result in dialogs that are
+portable between screen resolutions as well as platforms.<P>
+Because the same control can have different sizes on different GUIs,
+the user should be cautious in assuming that one resource file will work for all
+platforms. It may be better to plan to conditionally include or load different
+resource files for different platforms, with spacing modified to suit each
+environment. The best thing is to try your dialog resource on several platforms
+and see whether tweaking is required for some platforms.<P>
+
+</FONT></BODY></HTML>

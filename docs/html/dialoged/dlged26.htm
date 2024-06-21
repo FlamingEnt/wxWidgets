@@ -1,0 +1,18 @@
+<HTML>
+<head><title>Resource associations</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="topic17"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged23.htm#technotes"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged25.htm#topic16"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged27.htm#topic18"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H2>Resource associations</H2>
+<P>
+wxItemResource objects (containing information about panel items and dialogs) are not visual
+objects. However, they need to be associated with the visual objects when the latter
+are created for editing purposes. Therefore there is a hash table called resourceAssociations
+in wxResourceManager. When a window is created, the resource pointer and window pointer
+are associated via the hash table. When the window is deleted, the association is removed.
+Children of a dialog are associated with child wxItemResource objects by calling
+wxFindWindowByName with the wxItemResource name.<P>
+
+</FONT></BODY></HTML>

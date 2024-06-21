@@ -1,0 +1,22 @@
+<HTML>
+<head><title>What needs to be done for XView and Motif</title></head>
+
+<BODY BGCOLOR=#FFFFFF>
+<A NAME="topic18"></A><CENTER>
+<A HREF="dlged.htm"><img align=center src="contents.gif" BORDER=0 ALT="Contents"></A> <A HREF="dlged23.htm#technotes"><img align=center src="up.gif" BORDER=0 ALT="Up"></A> <A HREF="dlged26.htm#topic17"><img align=center src="back.gif" BORDER=0 ALT="Previous"></A> <A HREF="dlged28.htm#topic19"><img align=center src="forward.gif" BORDER=0 ALT="Next"></A> </CENTER><HR>
+
+<H2>What needs to be done for XView and Motif</H2>
+<P>
+The following areas need attention before Dialog Editor will run properly on these platforms.<P>
+<OL>
+
+<LI> For XView, the property editor needs to be made a modeless, not modal dialog, which has
+implications for flow of control in wxPropertyInfo::Edit.
+<LI> Properties which do not return the same value they are set to, such as width and height,
+need to be stored directly in wxItemResource and <I>not</I> transferred from window to wxItemResource
+in wxWindowPropertyInfo::InstantiateResource.
+<LI> Properties which cannot be dynamically set in XView or Motif need to have the item recreated (e.g. labelOrientation).
+</OL>
+<P>
+
+</FONT></BODY></HTML>
